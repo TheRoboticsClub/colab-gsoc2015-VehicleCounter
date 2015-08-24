@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity" tools:deviceIds="wear_round"
+    android:background="#FFFFFF">"#555555">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopButton"
+        android:src="@drawable/stop"
+        android:background="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/forwardButton"
+        android:layout_toEndOf="@+id/lrButton" />
+
+    <org.jderobot.wearteleoperator.MyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forwardButton"
+        android:src="@drawable/forward"
+        android:background="@color/white"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playButton"
+        android:src="@drawable/play"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/forwardButton"
+        android:layout_toStartOf="@+id/rrButton" />
+        
+
+    <org.jderobot.wearteleoperator.MyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upButton"
+        android:src="@drawable/up"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/downButton"
+        android:layout_toStartOf="@+id/forwardButton" />
+
+    <org.jderobot.wearteleoperator.MyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/downButton"
+        android:src="@drawable/down"
+        android:background="@color/white"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/forwardButton" />
+
+    <org.jderobot.wearteleoperator.MyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rrButton"
+        android:background="@color/white"
+        android:src="@drawable/rotate_right"
+        android:layout_alignTop="@+id/lrButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"/>
+
+    <org.jderobot.wearteleoperator.MyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lrButton"
+        android:src="@drawable/rotate_left"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/peloto_s"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
