@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JdeWearClient</string>
+    <string name="hello_round">Enter endpoint!</string>
+    <string name="hello_square">Hello Square World!</string>
+</resources>
