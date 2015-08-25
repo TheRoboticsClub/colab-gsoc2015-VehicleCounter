@@ -12,6 +12,9 @@ CMakeLists.txt assumes that the plugin is under gazeboserver/plugins directory a
 <br><br>
 <b>worlds:</b> contains gazebo worlds gazebo worlds
 <br><br>
+<b>interfaces:</b> contains heatmap.ice Interface used by vehicleCounter and wearClient components<br>
+NOTE: heatmap.ice depends on pose3d.ice
+<br><br>
 <b>src:</b> contains the source code for the following components --
 <p><b>1. vehicleCounter:</b> c++ component which uses the visual feed from the ArDrone to generate a traffic heatmap of certain checkpoints. Vehicle detection was by obtaining a foreground mask of moving vehicles after adaptive background subtraction using a GMM method and tracking was done using cvBlobs.
 <br><p><b>2. wearClient:</b> android component consisting of two modules one for the handheld device (mobile) and the other for the wearable (wear). This component is used to show the heatmap information from the C++ component in the wearable itself.
