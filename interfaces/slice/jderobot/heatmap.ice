@@ -24,7 +24,7 @@
 #ifndef HEATMAP_ICE
 #define HEATMAP_ICE
 
-#include "pose3d.ice"
+#include <pose3d.ice>
 
 module jderobot {
 	class checkpoint {

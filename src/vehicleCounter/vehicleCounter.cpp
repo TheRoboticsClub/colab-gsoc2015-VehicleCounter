@@ -30,7 +30,7 @@
 #include <jderobot/ardroneextra.h>
 #include <jderobot/heatmap.h>
 
-#include <visionlib/cvBlob/cvblob.h>
+#include <cvblob.h>
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
