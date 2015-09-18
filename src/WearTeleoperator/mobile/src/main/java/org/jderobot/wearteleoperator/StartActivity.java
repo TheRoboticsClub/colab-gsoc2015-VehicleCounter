@@ -21,6 +21,9 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Constants.IP_ADDRESS = mEditText.getText().toString();
+                Constants.PROXY_CAMERA = "Camera:default -h "+Constants.IP_ADDRESS+Constants.PROXY_CAMERA;
+                Constants.PROXY_CMDVEL = "CMDVel:default -h "+Constants.IP_ADDRESS+Constants.PROXY_CMDVEL;
+                Constants.PROXY_EXTRA = "Extra:default -h "+Constants.IP_ADDRESS+Constants.PROXY_EXTRA;
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 StartActivity.this.finish();
             }

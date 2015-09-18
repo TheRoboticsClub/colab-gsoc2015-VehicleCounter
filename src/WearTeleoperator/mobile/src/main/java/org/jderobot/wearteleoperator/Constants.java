@@ -17,8 +17,8 @@ public class Constants {
     public static final String MESSAGE_STOP="stop";
     public static String MESSAGE_PATH="mPath";
     public static String IMAGE_PATH="ImPath";
-    public static String IP_ADDRESS="192.168.0.103";
-    public static String PROXY_CAMERA="Camera:default -h "+IP_ADDRESS+" -p 9994";
-    public static String PROXY_CMDVEL="CMDVel:default -h "+IP_ADDRESS+" -p 9850";
-    public static String PROXY_EXTRA="Extra:default -h "+IP_ADDRESS+" -p 9701";
+    public static String IP_ADDRESS="192.168.0.105";
+    public static String PROXY_CAMERA=" -p 9994";
+    public static String PROXY_CMDVEL=" -p 9850";
+    public static String PROXY_EXTRA=" -p 9701";
 }
