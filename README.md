@@ -20,7 +20,7 @@ VehicleCounter components developed by Satyaki Chakraborty in GSoC 2015 program
 <b>Installing</b><br>
 1. Navigate to the root directory of the project. <br>
 2. $ cmake. <br>
-3. $ make -j4
+3. $ make -j4 <br>
 4. $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:<project_dir>/plugins <br>
 5. $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:<project_dir>/models <br>
 <br><br>
