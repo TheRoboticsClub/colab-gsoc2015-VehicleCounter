@@ -32,3 +32,8 @@ VehicleCounter components developed by Satyaki Chakraborty in GSoC 2015 program
 <br><br>
 Android components are to be seperately imported into Android Studio and therefrom installed in the devices.
 For more information please visit the actual blog<a href="http://jderobot.org/Chakraborty-colab#Documentation">here</a>
+
+#Demo Video
+<iframe width = "420" height = "315" 
+ src = "https://www.youtube.com/watch?v=VCij_LN1CRU">
+</iframe>
