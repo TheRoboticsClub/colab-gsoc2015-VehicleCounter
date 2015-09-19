@@ -34,6 +34,6 @@ Android components are to be seperately imported into Android Studio and therefr
 For more information please visit the actual blog<a href="http://jderobot.org/Chakraborty-colab#Documentation">here</a>
 
 #Demo Video
-<iframe width = "420" height = "315" 
+<video width = "420" height = "315" 
  src = "https://www.youtube.com/watch?v=VCij_LN1CRU">
-</iframe>
+</video>
