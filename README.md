@@ -38,3 +38,7 @@ For more information please visit the actual blog<a href="http://jderobot.org/Ch
  href = "https://www.youtube.com/watch?v=VCij_LN1CRU">
  Demo video
 </a> can be found here.
+
+#Screenshots
+<img src="http://jderobot.org/store/chakraborty/uploads/images/scr1.png"/>
+<img src="http://jderobot.org/store/chakraborty/uploads/images/scr2.png"/>
